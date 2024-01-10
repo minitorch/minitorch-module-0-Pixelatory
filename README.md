@@ -2,6 +2,12 @@
 # MiniTorch Module 0
 
 <img src="https://minitorch.github.io/minitorch.svg" width="50%px">
+<img src="./plot.png">
+
+![plot](plot.png)
+linear.weight_0_0: -10.0
+linear.weight_1_0: 1.7
+linear.bias_0: 3.98
 
 * Docs: https://minitorch.github.io/
 
