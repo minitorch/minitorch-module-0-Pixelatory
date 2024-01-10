@@ -3,7 +3,7 @@ Collection of the core mathematical operators used throughout the code base.
 """
 
 import math
-from typing import Callable, Iterable, Sized
+from typing import Callable, Iterable
 
 
 # ## Task 0.1
@@ -112,11 +112,6 @@ def relu_back(x: float, d: float) -> float:
 
 
 # ## Task 0.3
-def gen(xs):
-    for x in xs:
-        yield x
-
-
 # Small practice library of elementary higher-order functions.
 def map(fn: Callable[[float], float]) -> Callable[[Iterable[float]], Iterable[float]]:
     """
